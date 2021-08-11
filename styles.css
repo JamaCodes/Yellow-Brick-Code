@@ -1,0 +1,27 @@
+html{ font-family: 'Roboto', sans-serif;
+}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+
+.main-friends{ 
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+
+}
+
+  .friend {
+max-width: 200px;
+height: 300px;
+overflow: hidden;
+}
